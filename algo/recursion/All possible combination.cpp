@@ -1,5 +1,5 @@
-    #include<bits/stdc++.h>
-    using namespace std;
+#include<bits/stdc++.h>
+using namespace std;
 
 void perm(vector<vector<int>> &res, vector<int> &arr, int idx) {
     if (idx == arr.size()) {
@@ -22,7 +22,7 @@ vector<vector<int>> permuteUnique(vector<int> arr) {
 
 
     int main() {
-    vector<int> arr = { 1, 2, 3,4,5 };
+    vector<int> arr = { 1, 2, 3,4,5,6,7,8 };
     vector<vector<int>> res = permuteUnique(arr);
     for (auto x : res) {
         for (auto y : x) {
